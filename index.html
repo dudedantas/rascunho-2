@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Simulador de Planos de Saúde</title>
+</head>
+<body>
+  <h1 class="title">Multivida Planos de Saúde</h1>
+  <section class="content">
+    <form id="form" name="form">
+      <label for="name">Primeiro Nome:</label> <input type="text" id="name" name="name" required=""><br>
+      <label for="people">Número de Pessoas:</label> <input type="number" id="people" name="people" min="1" required=""><br>
+      <label for="age">Faixa Etária:</label>
+      <select id="age" name="age">
+        <option value="0-18">00 a 18 anos</option>
+        <option value="19-23">19 a 23 anos</option>
+        <option value="24-28">24 a 28 anos</option>
+        <option value="29-33">29 a 33 anos</option>
+        <option value="34-38">34 a 38 anos</option>
+        <option value="39-43">39 a 43 anos</option>
+        <option value="44-48">44 a 48 anos</option>
+        <option value="49-53">49 a 53 anos</option>
+        <option value="54-58">54 a 58 anos</option>
+        <option value="59+">+ de</option>
+      </select>
+      <br>
+      <button type="button" onclick="calcularPlanos()">Calcular Planos</button>
+    </form>
+
+    <div id="resultado"></div>
+    
+    </div>
+
+  </section>
+<link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+
+</body>
+</html>

@@ -11,7 +11,7 @@
 }
 
 body{
-    background: #e77a7a;
+    background: rgb(131, 231, 122);
 }
 
 
@@ -78,7 +78,7 @@ header a{
 .button-calculate{
     padding: 10px;
     border: 1px solid #00000079;
-    background-color: #e77a7a;
+    background-color: rgb(231, 144, 122);
     border-radius: 20px;
     color: #fff;
     font-weight: 600;
